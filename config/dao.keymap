@@ -319,9 +319,9 @@
         GALLIUM {
             label = " GALLIUM";
             bindings = <
-&kp F13  &kp B  &kp L  &kp D    &kp C      &kp V    &kp J     &kp Y       &kp O            &kp U          &kp SLASH       &kp F13
+&kp F13  &kp B  &kp L  &kp D    &kp C      &kp V    &kp J     &kp Y       &kp O            &kp U          &kp SQT         &kp F13
 &kp F11  &kp N  &kp R  &kp T    &kp S      &kp G    &kp P     &kp H       &kp A            &kp E          &kp I           &kp F12
-&kp F14  &kp X  &kp Q  &kp M    &kp W      &kp Z    &kp K     &kp F       &mm_dot_col      &mm_comma_semi &kp SQT         &kp F14
+&kp F14  &kp X  &kp Q  &kp M    &kp W      &kp Z    &kp K     &kp F       &mm_dot_col      &kp SLASH      &mm_comma_semi  &kp F14
                         &kp ESC  &kp SPACE  &mo SYM  &kp BSPC  &kp LSHIFT  &kp RET
             >;
         };
@@ -331,7 +331,7 @@
             bindings = <
 &trans    &kp Q  &kp W       &kp E   &kp R   &mm_t_quot  &kp Y   &mm_u_grv  &kp I       &kp O       &kp P        &trans
 &kp LBKT &kp A  &mm_s_rbkt  &kp D   &kp F   &kp G       &kp H   &kp J      &kp K       &kp L       &kp SEMI     &kp DOT
-&kp F14  &kp Z  &kp X       &kp C   &kp V   &kp B       &kp N   &kp M      &mm_dot_kh  &mm_comma_b &mm_apos_yu  &kp F14
+&kp F14  &kp Z  &kp X       &kp C   &kp V   &kp B       &kp N   &kp M      &mm_dot_kh  &mm_apos_yu &mm_comma_b  &kp F14
                              &trans  &trans  &trans      &trans  &trans     &trans
             >;
         };
